@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.container-top {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.container-img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-img a {
+    display: none;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(25, 117, 180); */
+    background-repeat: no-repeat;
+    background-position: center 0;
+    /* background-image: url('https://puui.qpic.cn/media_img/lena/PICjkg0v5_580_1680/0'); */
+}
+
+.container-img .active {
+    display: inline-block;
+}
+
+.container-right {
+    width: 350px;
+    height: 430px;
+    background: rgba(15, 15, 30, 0.4);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 5px;
+}
+
+.container-right a {
+    display: inline-block;
+    line-height: 35px;
+    width: 100%;
+    height: 35px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    /* 溢出变三个点 */
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.container-right a span {
+    font-size: 16px;
+}
+
+.nav {
+    font-weight: normal !important;
+    font-size: 0px;
+}
+
+.active {
+    font-size: 16px !important;
+    color: #ff5c38 !important;
+}
+
+.active>span {
+    font-size: 22px !important;
+}
+
+.cnhz,
+.zbtj {
+    position: relative;
+    margin-left: 0px !important;
+    padding-left: 35px;
+    font-size: 22px;
+}
+
+.cnhz img,
+.zbtj img {
+    position: absolute;
+    left: 15px;
+}
+
+.cnhz img {
+    top: 20px;
+}
+
+.zbtj img {
+    top: 10px;
+}
+
+.cnhz {
+    height: 55px !important;
+    line-height: 55px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.zbtj {
+    margin-top: 10px;
+}
